@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 10px;
+  background-color: rgb(39, 39, 39);
+  color: rgb(187, 187, 187);
+}
+p {
+  background-color: #fff;
+}
+.box {
+  display: flex;
+}

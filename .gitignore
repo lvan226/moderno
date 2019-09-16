@@ -1,0 +1,8 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+.vsgit
+
+node_modules/
+app/css/
+.gitignore
