@@ -6,3 +6,14 @@ $light: #fff;
 $bg: #263238;
 $grey: #f4f6f5;
 $black: #000;
+
+// Mixins
+@mixin f500 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+@mixin f700 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}

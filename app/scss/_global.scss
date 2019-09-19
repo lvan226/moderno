@@ -55,4 +55,5 @@ body{
 .rate-star {
   display: inline-block;
   margin-right: 13px;
+  @include f700;
 }
