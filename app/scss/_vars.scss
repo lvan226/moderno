@@ -14,6 +14,10 @@ $yellow: #fcb322;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+@mixin f400 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 @mixin f500 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;

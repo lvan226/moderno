@@ -48,12 +48,20 @@ body{
   padding: 0 15px;
 }
 
+
 .container-fluid{
   max-width: 100%;
   margin: 0 auto;
   padding: 0 30px;
 }
-
+.breadcrumbs {
+  &__inner {
+    overflow: hidden;
+  }
+}
+.breadcrumbs__list {
+  width: 1200px;
+}
 @media (max-width: 720px) {
   .container-fluid{
     padding: 0 15px;
