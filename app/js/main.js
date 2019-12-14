@@ -79,6 +79,7 @@ $(function () {
   //   $('#' + id).addClass('active-tab').fadeIn();
   //   return false;
   // });
+  
 
   $('.product-one__tabs .tab, .settings__tabs .tab').on('click', function (event) {
     var id = $(this).attr('data-id');
@@ -91,6 +92,8 @@ $(function () {
 
   $('input[type="file"], select').styler();
 
-  var mixer = mixitup('.products__inner-box');
+
+    var mixer = mixitup('.products__inner-box');
+  
 
 });
